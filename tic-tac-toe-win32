@@ -218,7 +218,7 @@ bool RestartGame(HWND hwnd)
 	return true;
 }
 
-int ComputerAI(int Position)
+int ComputerAI(int Position)             //尝试编写的电脑AI函数，并没有完成，程序中也没有调用
 {
 	if (board[4] == 0)return 5;
 	int playerPosition[4], amount = 0;
